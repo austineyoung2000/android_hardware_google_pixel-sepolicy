@@ -1,5 +1,6 @@
 type wifi_sniffer, domain;
 type wifi_sniffer_exec, exec_type, vendor_file_type, file_type;
+type wifi_logging_data_file, file_type, data_file_type;
 
 userdebug_or_eng(`
   # make transition from init to its domain
